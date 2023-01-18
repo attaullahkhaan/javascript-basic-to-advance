@@ -81,10 +81,10 @@ console.log(fruits4[fruits4.length - 1]); // Banana
 // One of the basic principles of programming can be summed with the acronym DRY in other words don't repeat yourself. And it's thanks to functions that you can avoid repetition. With functions you can take several lines of code that performs a set of related actions and then group them together under a single label.
 
 // Adding two number without function
-var num1 = 10;
-var num2 = 20;
-var result = num1 + num2;
-console.log(result)
+// var num1 = 10;
+// var num2 = 20;
+// var result = num1 + num2;
+// console.log(result)
 
 // function addTwoNums() {
 //     var a = 10;
