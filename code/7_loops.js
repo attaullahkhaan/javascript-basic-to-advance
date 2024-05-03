@@ -16,32 +16,32 @@ console.log("Go");
 // WHILE LOOP
 // Code that repeats as long as a specified condition is true.
 // The while loop is quite similar to the for loop but they’re not exactly the same. The major difference is the counter value, condition and incrementation.
-var counter = 3;
-while (counter > 0) {
-  console.log(counter);
-  counter = counter - 1;
-}
-console.log("Go");
+// var counter = 3;
+// while (counter > 0) {
+//   console.log(counter);
+//   counter = counter - 1;
+// }
+// console.log("Go");
 
 
 // DO WHILE LOOP
-let result = "";
-let i = 0;
-do {
-  i = i + 1;
-  result = result + i;
-  //   break;
-} while (i < 5);
-console.log(result); // Expected output: "12345"
+// let result = "";
+// let i = 0;
+// do {
+//   i = i + 1;
+//   result = result + i;
+//   //   break;
+// } while (i < 5);
+// console.log(result); // Expected output: "12345"
 
 
 // NESTED LOOP
-for (let i = 0; i <= 2; i++) { // outer loop
-  console.log("- FIRST LEVEL LOOP");
-  for (let j = 0; j <= 3; j++) { // inner loop
-    console.log("-- Second level loop");
-  }
-}
+// for (let i = 0; i <= 2; i++) { // outer loop
+//   console.log("- FIRST LEVEL LOOP");
+//   for (let j = 0; j <= 3; j++) { // inner loop
+//     console.log("-- Second level loop");
+//   }
+// }
 
 
 // WEEK and DAYS
@@ -57,4 +57,37 @@ for (let i = 0; i <= 2; i++) { // outer loop
 //   for (var secondNum = 1; secondNum <= 10; secondNum++) {
 //     console.log(firstNum + " x " + secondNum + " = " + firstNum * secondNum);
 //   }
+// }
+
+
+// *******************************************************************************
+// for (let i = 1; i <= 10; i++) {
+//   console.log(i);
+// }
+// let i = 10;
+// while (i > 0) {
+//   console.log(i);
+//   i--;
+// }
+
+// let number;
+// do {
+//   number = parseInt(prompt("Enter a number (0 to stop):"), 10);
+//   console.log("You entered:", number);
+// } while (number !== 0);
+
+// for (let i = 0; i < 5; i++) {
+//   let line = '';
+//   for (let j = 0; j < 5; j++) {
+//       line += '* ';
+//   }
+//   console.log(line);
+// }
+
+// for (let i = 1; i <= 100; i++) {
+//   if (i % 10 === 0) {
+//       console.log("Breaking at:", i);
+//       break;
+//   }
+//   console.log(i);
 // }
